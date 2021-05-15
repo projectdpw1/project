@@ -21,7 +21,7 @@ nav {
     position: sticky;
     position: -webkit-sticky; 
     top: 0;
-    background: transparent;
+    background: grey;
     z-index: 1;
     border-bottom:1px solid grey;
 }
@@ -38,7 +38,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: red;
+    color: yellow;
     font-weight: bold;
     text-align: center;
     padding: 0px 16px 0px 16px;
@@ -50,37 +50,50 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 h2{
-	color: yellow;
+	color: white;
+	font-family: roboto;
 }
 p{
-	color: yellow;
+	color: white;
+	font-family: sans-serif;
 }
 #home{
 	background-image: url(home.jpg);
 	background-size: cover;
 	width: auto;
-	height: 600px;
+	height: 400px;
 	border-radius: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 #about{
-	background-color: grey;
+	background-color: transparent;
 	width: auto;
-	height: 600px;
+	height: 500px;
 	border-radius: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 #lokasi{
-	background-color: grey;
+	background-color: transparent;
 	width: auto;
-	height: 600px;
+	height: 500px;
 	border-radius: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 #fakta{
-	background-color: grey;
+	background-color: transparent;
 	width: auto;
-	height: 600px;
+	height: 500px;
 	border-radius: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
+}
+#fakta{
+	font-weight : bold;
+}
+.kartu-tutor{
+   border-width: 5px;
+   border-style: solid;
+   border-top-color: red;
+   border-bottom-color: blue;
+   border-right-width: 0px;
+   border-left-width: 0px;
 }
